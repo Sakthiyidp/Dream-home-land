@@ -1,0 +1,260 @@
+:root {
+
+    --skin-color: #e27318;
+    --dark-color: #000000;
+    --dark-grey-color: #071230;
+    --body-fonts-color: #646a7a;
+    --grey-color: #f1f3f5;
+    --white-color: #fff;
+  }
+
+  .ser{
+    background-color:var(--skin-color);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  
+  button.ser{
+    background-color:var(--skin-color);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--dark-color);
+  }
+  
+  
+  
+  .ser-img{
+    border-radius: 20px;
+    width: 90%;
+    height: 340px;
+  }
+  
+  .ser a{
+    color: var(--dark-color);
+    text-decoration: none;
+  }
+  
+  .ser1 a{
+    color: #ffd24a;
+    text-decoration: none;
+  }
+  
+  .the-headline h1{
+    color: var(--skin-color);
+    font-size:28px;
+    font-weight: 600;
+  }
+  
+  .accentcolor{
+    color:var(--dark-color);
+  }
+  
+
+  @media screen and (min-width:319px) and (max-width:991px) {
+      .or-1 {
+          order: 2;
+      }
+  
+      .or-2 {
+          order: 1;
+      }
+  
+    
+  .ser-img{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+  }
+
+
+.staff-section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+
+}
+
+.staff-section .staff-container {
+    width: 100%;
+    height: auto;
+
+}
+
+.staff-title {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+}
+
+.staff-title h2 {
+    font-size: 40px;
+    font-weight: 900;
+    word-spacing: 5px;
+}
+
+.staff-title h2 span {
+    letter-spacing: 3px;
+    color: var(--skin-color);
+}
+
+/* staff-services-section  */
+
+.staff-services-section {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.staff-services-section .staff-services-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.staff-services-title {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+
+}
+
+.staff-services-title h2 span {
+    color: var(--skin-color);
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.staff-services-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.staff-services-content .staff-services-box {
+    width: 48%;
+    height: auto;
+    padding: 3%;
+    border: 0.5px solid var(--dark-color);
+    border-radius: 30px;
+    margin-bottom: 3%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.staff-services-content .staff-services-box span {
+    font-size: 70px;
+    font-weight: 900;
+    position: absolute;
+    z-index: 0;
+    color: var(--skin-color);
+    opacity: 0.7;
+    top: 0;
+    right: 0;
+}
+
+.staff-services-content .staff-services-box h5 {
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+    color: var(--skin-color);
+    margin-bottom: 5%;
+}
+
+.staff-services-content .staff-services-box p {
+    position: relative;
+    z-index: 1;
+    color: var(--white-color);
+}
+
+
+@media screen and (max-width:760px) {
+
+    .staff-services-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .staff-services-content .staff-services-box {
+        width: 100%;
+        height: auto;
+        padding: 3%;
+        border: 0.5px solid var(--gray);
+        border-radius: 30px;
+        margin-bottom: 3%;
+        position: relative;
+    }
+}
+
+.staff-services-content .staff-services-box::before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+.staff-services-content .staff-services-box:nth-child(1){
+    background-image: url('https://www.geospatialworld.net/wp-content/uploads/2019/10/Drone-surveying.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staff-services-content .staff-services-box:nth-child(2){
+    background-image: url('https://img.indiafilings.com/learn/wp-content/uploads/2018/04/12010105/FMB-Sketch.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staff-services-content .staff-services-box:nth-child(3){
+    background-image: url('https://caaliberconstruction.com/wp-content/uploads/2018/01/plan-approval.jpg?189db0&189db0') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staff-services-content .staff-services-box:nth-child(4){
+    background-image: url('https://thearchitectsdiary.com/wp-content/uploads/2023/02/Arch2O-architectural-sketching-10-architecture-sketching-tips-1-1024x585.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staff-services-content .staff-services-box:nth-child(5){
+    background-image: url('https://i0.wp.com/theconstructor.org/wp-content/uploads/2017/09/structural-design-engineer.jpg?fit=634%2C378&ssl=1') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staff-services-content .staff-services-box:nth-child(6){
+    background-image: url('https://i0.wp.com/theconstructor.org/wp-content/uploads/2018/09/8-Top-cost-estimates-in-Construction.jpg?fit=1080%2C720&ssl=1') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staff-services-content .staff-services-box:nth-child(7){
+    background-image: url('https://theconstructor.org/wp-content/uploads/2016/05/soil-tests-for-road-construction.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staff-services-content .staff-services-box:nth-child(8){
+    background-image: url('https://industrymalaysia.com/wp-content/uploads/2020/05/Land-Subdivision.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
